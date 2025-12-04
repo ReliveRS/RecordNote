@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la app -->
+    <string name="app_name">RecordNote</string>
+
+    <!-- Pantalla de Login -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="login_no_account">¿No tienes cuenta?</string>
+    <string name="login_register">Regístrate</string>
+    <string name="login_error">Error al iniciar sesión</string>
+
+    <!-- Pantalla de Registro -->
+    <string name="registro_title">Crear Cuenta</string>
+    <string name="registro_nombre_hint">Nombre completo</string>
+    <string name="registro_email_hint">Email</string>
+    <string name="registro_password_hint">Contraseña</string>
+    <string name="registro_confirm_password_hint">Confirmar contraseña</string>
+    <string name="registro_button">Crear Cuenta</string>
+    <string name="registro_error">Error al registrar</string>
+    <string name="registro_passwords_no_match">Las contraseñas no coinciden</string>
+
+    <!-- Pantalla de Inicio -->
+    <string name="inicio_title">Mis Notas</string>
+    <string name="inicio_search_hint">Buscar notas…</string>
+    <string name="inicio_empty_title">No hay notas aún</string>
+    <string name="inicio_empty_message">Crea tu primera nota para empezar</string>
+    <string name="inicio_nueva_nota">Nueva nota</string>
+    <string name="inicio_grabar">Grabar</string>
+
+    <!-- Pantalla de Detalle de Nota -->
+    <string name="nota_title_hint">Título</string>
+    <string name="nota_content_hint">Escribe tu nota…</string>
+    <string name="nota_guardar">Guardar</string>
+    <string name="nota_eliminar">Eliminar</string>
+    <string name="nota_compartir">Compartir</string>
+    <string name="nota_color">Color</string>
+    <string name="nota_etiquetas">Etiquetas</string>
+    <string name="nota_agregar_etiqueta">Agregar etiqueta</string>
+    <string name="nota_favorito">Favorito</string>
+    <string name="nota_sin_titulo">Sin título</string>
+
+    <!-- Pantalla de Grabación -->
+    <string name="grabacion_title">Grabación de Audio</string>
+    <string name="grabacion_iniciar">Iniciar grabación</string>
+    <string name="grabacion_pausar">Pausar</string>
+    <string name="grabacion_reanudar">Reanudar</string>
+    <string name="grabacion_detener">Detener</string>
+    <string name="grabacion_cancelar">Cancelar</string>
+    <string name="grabacion_guardando">Guardando…</string>
+    <string name="grabacion_estado_detenido">Toca el micrófono para iniciar</string>
+    <string name="grabacion_estado_grabando">Grabando tu audio…</string>
+    <string name="grabacion_estado_pausado">Grabación en pausa</string>
+
+    <!-- Configuración -->
+    <string name="config_title">Configuración</string>
+    <string name="config_cuenta">Cuenta</string>
+    <string name="config_audio">Audio</string>
+    <string name="config_sincronizacion">Sincronización</string>
+    <string name="config_backup">Backup</string>
+    <string name="config_apariencia">Apariencia</string>
+    <string name="config_notificaciones">Notificaciones</string>
+    <string name="config_informacion">Información</string>
+    <string name="config_cerrar_sesion">Cerrar sesión</string>
+    <string name="config_eliminar_cuenta">Eliminar cuenta</string>
+
+    <!-- Diálogos -->
+    <string name="dialog_cancelar">Cancelar</string>
+    <string name="dialog_aceptar">Aceptar</string>
+    <string name="dialog_eliminar">Eliminar</string>
+    <string name="dialog_guardar">Guardar</string>
+    <string name="dialog_si">Sí</string>
+    <string name="dialog_no">No</string>
+
+    <!-- Permisos -->
+    <string name="permission_audio_rationale">RecordNote necesita acceso al micrófono para grabar audio</string>
+    <string name="permission_storage_rationale">RecordNote necesita acceso al almacenamiento para guardar tus grabaciones</string>
+    <string name="permission_notification_rationale">RecordNote necesita enviar notificaciones para informarte sobre grabaciones y sincronización</string>
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="permission_go_settings">Ir a Configuración</string>
+
+    <!-- Notificaciones -->
+    <string name="notification_channel_general_name">General</string>
+    <string name="notification_channel_general_description">Notificaciones generales de RecordNote</string>
+    <string name="notification_channel_recording_name">Grabación</string>
+    <string name="notification_channel_recording_description">Notificaciones de grabación activa</string>
+    <string name="notification_channel_sync_name">Sincronización</string>
+    <string name="notification_channel_sync_description">Notificaciones de sincronización de datos</string>
+    <string name="notification_recording_title">Grabando audio</string>
+    <string name="notification_recording_text">Grabación en curso…</string>
+
+    <!-- Mensajes de error -->
+    <string name="error_generic">Ha ocurrido un error. Por favor, intenta de nuevo.</string>
+    <string name="error_network">Error de conexión. Verifica tu conexión a internet.</string>
+    <string name="error_auth">Error de autenticación. Por favor, inicia sesión de nuevo.</string>
+    <string name="error_permission">Se requieren permisos para realizar esta acción.</string>
+    <string name="error_no_audio">No se pudo grabar el audio</string>
+    <string name="error_save">Error al guardar</string>
+    <string name="error_delete">Error al eliminar</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="success_save">Guardado correctamente</string>
+    <string name="success_delete">Eliminado correctamente</string>
+    <string name="success_sync">Sincronización completada</string>
+    <string name="success_backup">Backup creado correctamente</string>
+
+    <!-- FileProvider -->
+    <string name="file_provider_authority" translatable="false">com.recordnote.fileprovider</string>
+
+    <!-- Formatos de tiempo -->
+    <string name="time_just_now">Justo ahora</string>
+    <string name="time_minutes_ago">Hace %d minutos</string>
+    <string name="time_hours_ago">Hace %d horas</string>
+    <string name="time_yesterday">Ayer</string>
+    <string name="time_days_ago">Hace %d días</string>
+
+    <!-- Accesibilidad -->
+    <string name="cd_menu">Menú</string>
+    <string name="cd_back">Volver</string>
+    <string name="cd_search">Buscar</string>
+    <string name="cd_filter">Filtrar</string>
+    <string name="cd_settings">Configuración</string>
+    <string name="cd_mic">Micrófono</string>
+    <string name="cd_play">Reproducir</string>
+    <string name="cd_pause">Pausar</string>
+    <string name="cd_stop">Detener</string>
+    <string name="cd_favorite">Favorito</string>
+</resources>

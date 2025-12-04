@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Incluir base de datos -->
+    <include domain="database" path="." />
+
+    <!-- Incluir SharedPreferences -->
+    <include domain="sharedpref" path="." />
+
+    <!-- Incluir archivos internos -->
+    <include domain="file" path="." />
+
+    <!-- Excluir archivos temporales -->
+    <exclude domain="file" path="temp/" />
+
+    <!-- Excluir caché -->
+    <exclude domain="file" path="cache/" />
+
+    <!-- Excluir archivos de audio grandes (opcional) -->
+    <!-- <exclude domain="file" path="RecordNote/Audio/" /> -->
+</full-backup-content>

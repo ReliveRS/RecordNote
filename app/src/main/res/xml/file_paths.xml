@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ========== DIRECTORIOS INTERNOS ========== -->
+
+    <!-- Archivos internos de la aplicación -->
+    <files-path
+            name="files"
+            path="." />
+
+    <!-- Caché interno (se borra automáticamente si falta espacio) -->
+    <cache-path
+            name="cache"
+            path="." />
+
+    <!-- ========== DIRECTORIOS EXTERNOS (API 30+) ========== -->
+
+    <!-- Archivos externos de la app (no requiere READ_EXTERNAL_STORAGE en Android 11+) -->
+    <external-files-path
+            name="external_files"
+            path="." />
+
+    <!-- ========== DIRECTORIOS ESPECÍFICOS DE RECORDNOTE ========== -->
+
+    <!-- Archivos de audio grabados -->
+    <external-files-path
+            name="audio"
+            path="RecordNote/Audio" />
+
+    <!-- Transcripciones de audio -->
+    <external-files-path
+            name="transcriptions"
+            path="RecordNote/Transcriptions" />
+
+    <!-- Archivos de backup/sincronización -->
+    <external-files-path
+            name="backup"
+            path="RecordNote/Backup" />
+
+    <!-- Exportaciones (PDF, TXT, etc.) -->
+    <external-files-path
+            name="export"
+            path="RecordNote/Export" />
+
+    <!-- Archivos temporales durante sincronización -->
+    <external-files-path
+            name="temp"
+            path="RecordNote/Temp" />
+
+    <!-- Caché externo (multimedia descargada, etc.) -->
+    <external-cache-path
+            name="external_cache"
+            path="." />
+
+    <!-- ========== ACCESO RAÍZ (USAR CON CUIDADO) ========== -->
+
+    <!-- Almacenamiento externo raíz (solo si es necesario) -->
+    <external-path
+            name="external"
+            path="." />
+
+</paths>

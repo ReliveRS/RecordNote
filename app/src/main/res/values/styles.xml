@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema OSCURO FORZADO para RecordNote -->
+    <style name="Theme.RecordNote" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Colores Cyan/Oscuro RecordNote -->
+        <item name="colorPrimary">#64FFDA</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorPrimaryContainer">#64FFDA</item>
+        <item name="colorOnPrimaryContainer">#000000</item>
+
+        <item name="colorSecondary">#64FFDA</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorSecondaryContainer">#64FFDA</item>
+        <item name="colorOnSecondaryContainer">#000000</item>
+
+        <item name="colorTertiary">#64FFDA</item>
+        <item name="colorOnTertiary">#000000</item>
+
+        <item name="colorError">#FF5252</item>
+        <item name="colorOnError">#FFFFFF</item>
+
+        <!-- Superficies OSCURAS -->
+        <item name="colorSurface">#112240</item>
+        <item name="colorOnSurface">#E6F1FF</item>
+        <item name="colorSurfaceVariant">#112240</item>
+        <item name="colorOnSurfaceVariant">#8892B0</item>
+
+        <!-- Fondo OSCURO -->
+        <item name="android:colorBackground">#0A192F</item>
+        <item name="colorOnBackground">#E6F1FF</item>
+
+        <!-- Barras OSCURAS -->
+        <item name="android:statusBarColor">#0A192F</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#0A192F</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="HomeTitle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#E6F1FF</item>
+    </style>
+
+    <style name="TitleLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#E6F1FF</item>
+    </style>
+
+    <style name="BodyText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#E6F1FF</item>
+    </style>
+</resources>
